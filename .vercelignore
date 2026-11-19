@@ -1,0 +1,14 @@
+.local-data
+.env.local
+.env.*.local
+qa
+*.zip
+scripts/update-ui.mjs
+scripts/refresh-style.mjs
+
+.env*
+!.env.example
+
+.wrangler/
+.dev.vars*
+!.dev.vars.example

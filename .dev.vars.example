@@ -1,0 +1,4 @@
+# For pnpm cloudflare:dev only. Copy this to .dev.vars and enter a test database.
+# For production use Cloudflare encrypted secrets; never use VITE_ for credentials.
+UPSTASH_REDIS_REST_URL="https://your-database.upstash.io"
+UPSTASH_REDIS_REST_TOKEN="your-write-token"

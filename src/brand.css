@@ -1,0 +1,59 @@
+.brand.deedquest-brand {
+  gap: 10px;
+  color: #f2f7f4;
+  font-size: 27px;
+  font-weight: 850;
+  letter-spacing: -1.1px;
+  line-height: 1;
+}
+
+.deedquest-mark {
+  display: block;
+  width: 47px;
+  height: 47px;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 3px 8px #0004);
+}
+
+.deedquest-wordmark {
+  white-space: nowrap;
+}
+
+.deedquest-wordmark > span {
+  color: #70dfc4;
+}
+
+.deedquest-brand:hover .deedquest-mark {
+  filter: drop-shadow(0 0 7px #52d7bc44);
+}
+
+.center-wordmark.deedquest-board-wordmark {
+  gap: 7px;
+  color: #87afa6;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 1.7px;
+}
+
+.deedquest-board-wordmark .deedquest-mark {
+  width: 25px;
+  height: 25px;
+  filter: none;
+}
+
+@media (max-width: 640px) {
+  .brand.deedquest-brand {
+    gap: 7px;
+    font-size: 22px;
+    letter-spacing: -.8px;
+  }
+
+  .deedquest-mark {
+    width: 37px;
+    height: 37px;
+  }
+
+  .in-game .brand.deedquest-brand {
+    font-size: 19px;
+  }
+}
